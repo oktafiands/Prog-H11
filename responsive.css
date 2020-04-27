@@ -1,0 +1,206 @@
+@media screen and (max-width:1000px) {
+    /*==========BAGIAN HEADER==========*/
+    .menu-toggle {
+        display: none;
+    }
+    .memu-toggle span {
+        display: none;
+    }
+    
+    /*==========BAGIAN CONTENT==========*/
+    .content .slider .slide .caption {
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        padding: 20px;
+    }
+
+    .content .slider .slide .caption h2 {
+        margin: 0 0 10px;
+        font-size: 30px;
+    }
+
+    .content .slider .slide .caption p {
+        font-size: 16px;
+    }
+
+    /*==========BAGIAN EXTRA 1==========*/
+    .team-section {
+        width: 100%;
+      }
+  
+      .border {
+        width: 100%;
+        display: block;
+        margin: auto;
+      }
+  
+      .ps {
+        margin-bottom: 25px;
+        text-align: center;
+        width: 100%;
+      }
+  
+      .ps a {
+        display: inline-block;
+        margin: 20px 30px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+  
+      .ps a img {
+        width: 100%;
+        filter: grayscale(80%);
+        transition: 0.4s all;
+      }
+  
+      .ps a:hover > img {
+        filter: none;
+      }
+  
+      .section {
+        width: 100%;
+      }
+  
+      .name {
+        display: block;
+        font-size: 20px;
+        width: 100%;
+      }
+  
+      .section p {
+        width: 100%;
+        font-size: 18px;
+      }
+  
+    /*==========END BAGIAN EXTRA 1==========*/
+
+    /*==========BAGIAN EXTRA 2==========*/
+    input,textarea {
+        width: 100%;
+    }
+
+    .contact-submit {
+        width: 100%;
+    }
+
+    /*==========END BAGIAN EXTRA 2==========*/
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    /*==========BAGIAN EXTRA 1==========*/
+    .team-section {
+        width: 100%;
+      }
+  
+      .border {
+        width: 100%;
+        display: block;
+        margin: auto;
+      }
+  
+      .ps {
+        margin-bottom: 25px;
+        text-align: center;
+        width: 100%;
+      }
+  
+      .ps a {
+        display: inline-block;
+        margin: 20px 30px;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+  
+      .ps a img {
+        width: 100%;
+        filter: grayscale(80%);
+        transition: 0.4s all;
+      }
+  
+      .ps a:hover > img {
+        filter: none;
+      }
+  
+      .section {
+        width: 100%;
+      }
+  
+      .name {
+        display: block;
+        font-size: 18px;
+        width: 100%;
+      }
+  
+      .section p {
+        width: 100%;
+        font-size: 15px;
+      }
+  
+   /*==========END BAGIAN EXTRA 1==========*/ 
+   
+  /*==========BAGIAN EXTRA 2==========*/
+    .contact-form {
+        padding-top: 20px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    .contact-submit {
+
+        width: 100%;
+    }
+    /*==========END BAGIAN EXTRA 2==========*/
+  
+}
+
+@media screen and (max-width: 576px) {
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(34, 49, 52, 0.9);
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    /*==========LOGO SOSMED==========*/
+    .fa {
+      padding: 5px;
+      font-size: 7px;
+      width: 25px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+}
